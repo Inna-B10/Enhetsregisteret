@@ -1,18 +1,28 @@
 # Project name: Enhetsregisteret
-### Goal: 
+
+### Project Goal:
+
 Applikasjonen i React som gjør en spørring mot Brønnøysundregistrene sitt API og presenterer en liste over bedriftene som ble funnet.
 
-#### Installed
-- react-router-dom
-- gh-pages
-
-## Minstekrav til oppgaven:
+#### Minstekrav til oppgaven:
 
 List ut alle bedrifter som er opprettet i en gitt kommune i et gitt år
 
-### videre oppgaver:
+## 🧩 Tech Stack
 
-velge eller skrive:
+![React](https://img.shields.io/badge/React_18.2.0-424242?logo=react&logoColor=61DAFB)
+![React DOM](https://img.shields.io/badge/React_DOM_18.2.0-424242?logo=react&logoColor=61DAFB)
+![React Router](https://img.shields.io/badge/React_Router_6-424242?logo=reactrouter&logoColor=CA4245)
+![Vite](https://img.shields.io/badge/Vite_5.2-424242?logo=vite&logoColor=646CFF)
+![ESLint](https://img.shields.io/badge/ESLint_8.57-424242?logo=eslint&logoColor=fff)
+![GitHub_Pages](https://img.shields.io/badge/GitHub_Pages_6.1.1-424242?logo=githubpages&logoColor=fff)
+
+[<img src="preview.png" height="250" />](preview.png)
+
+<details style="border:1px solid #d4d4d4; border-radius:2px; padding:1rem;">
+<summary><h4 style="display:inline; padding-left:6px;">Videre oppgaver:<h4></summary>
+
+**velge/skrive:**
 
 - navn
 - organisasjonsnummer
@@ -27,7 +37,7 @@ velge eller skrive:
 - vise hvor mange treff
 - vise hvis resultatet er tomt
 
-**sorteing:**
+**sortering:**
 
 - navn
 - organisasjonsnummer
@@ -36,6 +46,8 @@ velge eller skrive:
 
 sort={feltnavn},{ASC/DESC}
 `https://data.brreg.no/enhetsregisteret/api/enheter?sort=antallAnsatte,DESC`
+
+</details>
 
 ## [TODO]
 
